@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="paymentGateway:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>paymentGateway</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="paymentGateway-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="paymentGateway:war exploded" />
+    </root>
+  </artifact>
+</component>

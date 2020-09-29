@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Donation Webpage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  *{
+	 font-family: 'Raleway', sans-serif;
+	 }
+	/* Make the image fully responsive */
+	.carousel-inner img {
+    width: 100%;
+    height: 100%;
+	}
+	.card img{
+		height:200px;
+	}
+	.s-img img{
+		height:250px;
+		width:100%;
+	}
+	.mybackground{
+		clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 81%, 0 100%, 0% 30%);
+	}
+  </style>
+</head>
+<body>
+<!--Nav bar -->
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light ">
+<div class="container">
+  <ul class="navbar-nav nav justify-content-end text-right">
+    <li class="nav-item active">
+      <h4><a class="nav-link" href="#"><b>Home</b></a></h4>
+    </li>
+    <li class="nav-item active">
+      <h4><a class="nav-link" href="#about"><b>About us</b></a></h4>
+    </li>
+  </ul>
+  </div>
+</nav>
+
+<!--Corasol-->
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="poor-children.jpg" alt="poor children" width="50" height="50">
+		<div class="carousel-caption">
+			<a href="form/form.html"><button type="button" class="btn btn-warning btn-lg">Donate</button></a>
+		</div>
+    </div>
+    <div class="carousel-item">
+      <img src="family.jpg" alt="poor family" width="50" height="50">
+		<div class="carousel-caption">
+			<a href="form/form.html"><button type="button" class="btn btn-warning btn-lg">Donate</button></a>
+		</div>
+    </div>
+    <div class="carousel-item">
+      <img src="teacher.jpg" alt="New York" width="50" height="50">
+		<div class="carousel-caption">
+			<a href="form/form.html"><button type="button" class="btn btn-warning btn-lg">Donate</button></a>
+		</div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+<section>
+<div class="container-fluid">
+    <a name="about"></a>
+	<h1 class="text-center pt-5">About Us</h1>
+	<hr class="w-25 mx-auto pb-5">
+	
+	<div class="row mb-5">
+		<div class="col-lg-6 col-md-6 col-12">
+			<img src="donations.jpg" class="img-fluid">
+		</div>
+		<div class="col-lg-6 col-md-6 col-12">
+		<h1>Who am I?</h1>
+		<hr>
+		<p class="pt-4">We are Non-profit organization, works for the humanity. We collect Donation from you and provide the facilities to the financially weaker sections. </p>
+		
+		</div>
+	</div>
+    </div>
+</section>
+
+<!--footer-->
+<section>
+<footer>
+	<div class="container-fluid text-center bg-dark text-white py-3">
+		<div class="row s-img">
+		<div class="col-lg-4 col-md-2 col-12 mb-5">
+			<h2><u>Supportives</u></h2>
+			The Sparks Foundations
+		</div>
+		<div class="col-lg-4 col-md-2 col-12 mb-5">
+			<h2><u>Members</u></h2>
+			Naveen
+		</div>
+		<div class="col-lg-4 col-md-2 col-12 mb-5">
+			<h2><u>Help</u></h2>
+			naveen.ece.1728@iiitbh.ac.in<br>+91-9876543210<br>
+		</div>
+	</div>
+	<p>Designed in India</p>
+	</div>
+</footer>
+</section>
+</body>
+</html>
