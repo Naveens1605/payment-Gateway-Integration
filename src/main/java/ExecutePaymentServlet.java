@@ -89,8 +89,8 @@ public class ExecutePaymentServlet extends HttpServlet {
                     "</body>\n" +
                     "</html>";
 
-            String user = "pitamahbhism16@gmail.com";
-            String pass = "8896513483";
+            String user = "Your email";
+            String pass = "Your password";
             PrintWriter out = response.getWriter();
             try {
                 Mail.sendEmail(user, pass, email, subject, content);
