@@ -17,9 +17,9 @@ public class PaymentServices extends HttpServlet {
         String email = (String) session.getAttribute("email");
         getPayerInformation(firstname,lastname,email);
     }
-        private static final String CLIENT_ID = "AYfbb6GdCP2eu9Xvoe-fsmTmGtL-rmr5SLs1r5Mv5a3e6vc6B_cvUd4TIZl1LBqwqJ9MpUw3c7Nk0YIo";
-        private static final String CLIENT_SECRET = "ELL_OjsSi4KAPwlBCIJWnwkkj72ByrLHNjzMC45ZviSTlJzAW07_9AlbJqHlT1w0yYy8u4-1-4ibqZSJ";
-        private static final String MODE = "sandbox";
+        private static final String CLIENT_ID = "Your Client ID";
+        private static final String CLIENT_SECRET = "Your Secret";
+        private static final String MODE = "Your Mode";
 
         public String authorizePayment(OrderDetail orderDetail) throws PayPalRESTException {
 
@@ -55,8 +55,8 @@ public class PaymentServices extends HttpServlet {
 
         private RedirectUrls getRedirectURLs() {
             RedirectUrls redirectUrls = new RedirectUrls();
-            redirectUrls.setCancelUrl("http://paypalgateway.us-east-2.elasticbeanstalk.com/index.html");
-            redirectUrls.setReturnUrl("http://paypalgateway.us-east-2.elasticbeanstalk.com/review");
+            redirectUrls.setCancelUrl("Your redirect URL");
+            redirectUrls.setReturnUrl("Your Review URL");
             return redirectUrls;
         }
 
